@@ -1,0 +1,174 @@
+/*external style sheet*/
+
+h1{
+    font-family: Copperplate,"Copperplate Gothic Light",fantasy;
+    font-size: 3em;
+    background-color: #0000;
+    line-height: 1.8em;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    font-weight: lighter;
+  
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    font-weight: 300;
+}
+p{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+td{
+    font-family: Arial, Helvetica, sans-serif;
+}
+th{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+  
+  transition-delay: 0s;
+  transition-duration: 0.36s;
+  transition-property: all;
+  transition-timing-function: line;
+}
+
+nav {
+  font-family: "Century Gothic",CenturyGothic,AppleGothic,sans-serif;
+  font-size: 1.5em;
+  
+  display: block;
+  /* position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+ 
+  height: auto;
+  width: 110px;
+  background-color: #BBBBBB;
+  padding: 1em;*/
+  
+ 
+ 
+}
+
+a:hover
+{
+    background-color: #404040;
+   
+}
+
+
+th {
+    text-align: left;
+    vertical-align: top;
+}
+p.effect{
+				text-align: center;
+				font-size: 3em;
+				font-family: "Century Gothic",CenturyGothic,AppleGothic,sans-serif;
+				font-weight: 900;
+				background-color: #fff;	
+				color: #202c2d;
+				text-shadow:
+				0 1px #808d93,
+				-1px 0 #cdd2d5,
+				-1px 2px #808d93,
+				-2px 1px #cdd2d5,
+				-2px 3px #808d93,
+				-3px 2px #cdd2d5,
+				-3px 4px #808d93,
+				-4px 3px #cdd2d5,
+				-4px 5px #808d93,
+				-5px 4px #cdd2d5,
+				-5px 6px #808d93,
+				-6px 5px #cdd2d5,
+				-6px 7px #808d93,
+				-7px 6px #cdd2d5,
+				-7px 8px #808d93,
+				-8px 7px #cdd2d5;
+						}
+						
+body {margin: 0;}
+
+
+#custom-bootstrap-menu.navbar-default .navbar-brand {
+    color: rgba(219, 215, 215, 1);
+}
+#custom-bootstrap-menu.navbar-default {
+    font-size: 23px;
+    background-color: rgba(46, 45, 45, 1);
+    border-width: 0px;
+    border-radius: 4px;
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a {
+    color: rgba(219, 215, 215, 1);
+    background-color: rgba(46, 45, 45, 1);
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:focus {
+    color: rgba(51, 51, 51, 1);
+    background-color: rgba(69, 164, 173, 1);
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:focus {
+    color: rgba(85, 85, 85, 1);
+    background-color: rgba(161, 211, 217, 1);
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle {
+    border-color: #a1d3d9;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus {
+    background-color: #a1d3d9;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle .icon-bar {
+    background-color: #a1d3d9;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover .icon-bar,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus .icon-bar {
+    background-color: #2e2d2d;
+}
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+     font-family: "Century Gothic",CenturyGothic,AppleGothic,sans-serif;
+  font-size: 1.5em;
+  text-shadow: 0px 2px 3px #666;
+   transition-delay: 0s;
+  transition-duration: 0.4s;
+  transition-property: all;
+  transition-timing-function: line;
+  
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #111;}
+
+ul.topnav li a.active {background-color: #595959;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px){
+    ul.topnav li.right,
+    ul.topnav li {float: none;}
